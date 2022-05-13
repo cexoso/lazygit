@@ -1,0 +1,23 @@
+gui:
+  skipUnstageLineWarning: true
+  theme:
+    activeBorderColor:
+      - red
+    selectedLineBgColor:
+      - reverse
+  expandFocusedSidePanel: true
+keybinding:
+  universal:
+    cancel: "<esc>"
+    return: "q"
+    nextTab: "h"
+    prevTab: "l"
+    prevBlock-alt: "<c-k>"
+    nextBlock-alt: "<c-j>"
+  commits:
+    moveDownCommit: "<up>" 
+    moveUpCommit: "<down>"
+# git:
+#   paging:
+#     pager: git difftool --no-prompt {{args}} --extcmd="icdiff --cols={{width}}" {{filename}} 
+#
